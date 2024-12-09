@@ -3,17 +3,31 @@
 <head>
   <title>Login page</title>
   <style>
-    form {
-      justify-content:center;
-    }
+    body {
+         text-align: center;
+    }  
   </style>
 </head>
   <body>
+  <h1>Sign Up</h1>
     <form>
-    <input type="text" placeholder="Usermame" name="name"><br>
-    <input type="text" placeholder="Email" name="email"><br>
-    <input type="password" placeholder="Password" name="password"><br>
-    <input type="number" placeholder="Age(optional)" name="age"><br>
+    <input type="text" placeholder="Usermame" name="name"><br><br>
+    <input type="text" placeholder="Email" name="email"><br><br>
+    <input type="password" placeholder="Password" name="password"><br><br>
+    <label for="date" name="date">Date of Birth</label><br>
+    <input type="date" ><br><br>
       </form>
+<p>Choose your favorite device to game on:</p>
+
+<form>
+  <input type="radio" id="console" name="fav_gamingdevice">
+  <label for="console">Console</label><br>
+  <input type="radio" id="PC" name="fav_gamingdevice">
+  <label for="pc">PC</label><br>
+  <input type="radio" id="Mobile" name="fav_gamingdevice">
+  <label for="mobile">Mobile</label><br>
+  <input type="checkbox"><br>
+  <input type="submit" name="submit_btn">
+</form> 
   </body>
 </html>
